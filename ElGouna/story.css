@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    margin: 50px;
+    padding: 0;
+    border: 0;
+    color: rgb(17, 71, 89);
+    font-size: 100px;
+}
+body {
+  background-image: url(../images/background-story.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  border: 5px solid black;
+}
+/*navbar*/
+.nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 17px 15px;
+    text-align: center;
+    float: left;
+  }
+  .nav-list li {
+    display: inline-block;
+    padding: 14px 16px;
+  }
+  .nav-list li a {
+    color: aliceblue;
+    margin: 10%;
+    text-align: center;
+    /*end of navbar*/
+  }
+.bold {
+    font-weight: bold;
+    color: rgb(17, 71, 89);
+    font-size: 50px;
+    text-align: center;
+}
+.blue {
+  color: rgb(17, 71, 89);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.white {
+    color: aliceblue;
+    text-shadow: #000;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: rgba(222, 222, 174, 0.8);
+    display: block;
+    border: 10px solid rgba(255, 255, 255, 0.6);
+    z-index: 10000;
+}
+.story {
+  margin: 20px;
+}
